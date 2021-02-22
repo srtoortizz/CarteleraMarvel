@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body {
+	 
+	 
+}
+
+#contenedor{
+	width:3800px;
+	height: 3700px;
+	background-color:white;
+	
+	margin:0.5em auto;
+	padding:0.5em;
+	border:1px solid black;
+}
+
+#header{
+border:1px solid black;
+width:1800px;
+height: 300px;
+background: url('cabeceras/cabeceranegra.png');
+border-radius:1em;
+margin: 1em auto;
+}
+
+
+#nav{
+	 
+	height:200px;
+	background-color:white;
+	border-radius:1em;
+	border:1px solid black;
+	margin:1em;
+}
+
+
+
+
+ 
+
+ul.lista >li {
+
+font-size:80px;
+float:left;
+display:inline;
+margin:50px 100px 20px 0;}
+
+	
+ul li{list-style:none;}
+	
+	li ul{
+		
+	background:#AED1FF;
+	padding:0 20px;
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	}
+	
+	li:hover ul{
+	  width:10em;
+	  height:10em;
+	}
+
+	li ul li {
+	font-size:50px;
+	margin:10px auto;}
+	
+
+
+#contenedor2{
+	
+	height:2110px;
+	background-color:black;
+	margin:1em;
+}
+
+#footer{
+	
+ /*background: url('footer/footerindexverde.png'); */
+	border-radius:1em;
+	margin-top:50px;
+	height:955px;
+	width:3800px;
+	position:absolute;
+}
+	
+
+#section{
+	height:2000px;
+	width:2700px; 
+	background-color:white ;
+	border-radius:4em;
+	float:right;
+	margin: 0.5em;
+}
+
+ 
+ 
+
+
+
+
+
+
+
+#aside {
+	
+	height:2000px;
+	width:1000px;
+	 background: url('imagenes/registroaside.png');
+	border-radius:1em;
+	float:left;
+	margin:0.5em;
+}
+
+
+.registro{
+	
+	font-size:100px;
+	color:red;
+	text-align:center;
+	margin-top:90px;
+	
+	
+	
+}
+
+
+
+.parraforegistro {
+	
+	font-size:80px;
+	text-align:center;
+	margin-top:60px;
+	
+	}
+	
+.logo{
+	width:180px;
+	height:180px;
+	margin-left:-600px;
+	margin-top:50px;
+
+	
+	
+}
+
+.lista {
+	margin-left:500px;
+	padding:0;
+
+}
+
+
+
+
+
+.contacto {
+	
+ 	font-size:90px;
+	text-align:center;
+	margin-top:70px;
+}
